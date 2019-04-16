@@ -6,7 +6,9 @@ This helps to Automate the line spacing, trailing whitespace, space and size of 
 
 # Setup Editor config for your Editor
 Step 1. Create a '.editorconfig' file in your root direction
+
 Sept 2. Goto https://editorconfig.org/ to get the config that suit you
+
 Step 3. Paste it in the editorconfig file your just create
 
 Supported properties for VS Code
