@@ -1,3 +1,13 @@
 import m from 'mithril';
 
-m.render(document.body, "Welcome to mithril world");
+let Main = {
+    view: function() {
+        return (
+            <section>
+                <h1>Welcome to mithril setup,  transpire by  babel, bundle with webpack!</h1>
+            </section>
+        )
+    }
+}
+
+m.render(document.body, <Main />);
