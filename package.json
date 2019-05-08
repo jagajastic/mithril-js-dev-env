@@ -1,0 +1,25 @@
+{
+  "name": "mithril-js-dev-env",
+  "version": "1.0.0",
+  "description": "Javascript Development environment starter kit for mithril Js",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack src/index.js --output bin/app.js -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jagajastic/mithril-js-dev-env.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jagajastic/mithril-js-dev-env/issues"
+  },
+  "homepage": "https://github.com/jagajastic/mithril-js-dev-env#readme",
+  "devDependencies": {
+    "mithril": "^1.1.6",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.2"
+  }
+}
